@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Timanson Builders</title>
+		
+		<meta charset="UTF-8" name="description" content="Remodeling, Residential Remodel, Commercial Remodel, Home Improvement, Flooring Service, Plumbing Service, Electrical Service, Interior Remodel, Exterior Remodel, Green Builder"/>
+
+		<meta name="keywords" content="Remodel, Residential, Commercial, Flooring, Plumbing, Electrical, Deck, Concrete, Accessability, Adaptive, Interior, Exterior, Improvement"/>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="css/cssreset.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+		<link href='https://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
+
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" type="text/css" href="css/tim-css.css">
+
+		<script type="text/javascript" src="js/responsive-js.js"></script>
+
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+
+		<script type="text/javascript" src="js/googleMap.js"></script>		
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<header id="nav">
+				<span id="logo">Timanson</span>
+
+				<div id="menuButton">&nbsp;</div>
+
+				<div id="navWrap">
+					<ul>
+						<a href="index.html">
+							<li class="navItems">Home</li>
+						</a>
+						<a href="bio.html">
+							<li class="navItems">Bio</li>
+						</a>
+						<a href="services.html">
+							<li class="navItems">Services</li>
+						</a>
+						<a href="testimonials.html">
+							<li class="navItems">Testimonials</li>
+						</a>
+						<a href="estimates.html">
+							<li class="navItems">Contact</li>
+						</a>
+					</ul>
+				</div>
+			</header>
+
+			<div id='mainEstimatesWrap'>
+				<div id="mainEstimates">
+					<div id='estimatesWrap'>
+						<span id="sloganEstimates">Estimates</span>
+						
+						<hr>
+						
+						<form id="estimateForm" action="" method="post">
+						  <table id="estimateTable">
+								<tr>
+									<th class="tableTitle" colspan='2'>Contact Information:</th>
+								</tr>
+
+								<tr>
+									<td colspan='2'>&nbsp;</td>
+								</tr>
+
+								<tr>
+									<td colspan='2'>
+										<input class='estimatesInputs' size='27' type="text" placeholder="Full Name" autofocus/>
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan='2'>&nbsp;</td>
+								</tr>
+
+								<tr> 
+									<td colspan='2'>
+										<input class='estimatesInputs' size="27" type="email" placeholder="Email" />
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan='2'>&nbsp;</td>
+								</tr>
+
+					  		<tr>
+									<td colspan='2'>
+										<input class='estimatesInputs' size="27" type="tel" placeholder="Phone Number" />
+										</td>
+								</tr>
+
+								<tr>
+									<td colspan='2'>&nbsp;</td>
+								</tr>
+
+								<tr>
+									<th class="tableTitle" colspan='2'>Service Interest:</th>
+								</tr>
+
+								<tr>
+									<td colspan='2'>&nbsp;</td>
+								</tr>
+
+								<tr>
+									<td class='estCheck'>
+										<input type="checkbox" name="kitchen"/>KITCHEN
+									</td>
+
+									<td class='estCheck'>
+										<input type="checkbox" name="bath"/>BATHROOM
+									</td>
+								</tr>
+
+								<tr>
+									<td class='estCheck'>
+										<input type="checkbox" name="deck"/>DECK
+									</td>
+
+									<td class='estCheck'>
+										<input type="checkbox" name="basement"/>BASEMENT
+									</td>
+								</tr>
+
+								<tr>
+									<td class='estCheck' colspan='2'>
+										<input type="checkbox" name="other"/>OTHER
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan='2'>&nbsp;</td>
+								</tr> 
+
+								<tr>
+									<td colspan='2'>
+										<textarea id='estimatesTextarea' class='estimatesInputs' rows="7" cols="10" placeholder="Give us some details about your project..."></textarea>
+									</td>
+								</tr>
+
+								<!-- <tr>
+									<td colspan='2'>&nbsp;</td>
+								</tr>  -->
+
+								<tr>
+									<td colspan='2' style="text-align:center; vertical-align:bottom">
+										<input id="estimatesSub" type="button" value="Submit" onclick='alert("Thank you for submitting your information. We will contact you within 2 business days.")'/>
+									</td>
+								</tr>
+						  </table>
+						</form>
+
+						<div id='estContInfo'>
+							<div id="googleMap">
+							</div>
+
+							<span id='estimatesContactInfo'>
+								Timanson Builders<br>
+								timanson@timanson.com<br>
+								Boulder, Colorado<br>
+								555-555-5555</span>
+						</div>
+					</div><!--end estimatesWrap-->
+				</div><!--end mainEstimates-->
+			</div><!--end mainEstimatesWrap-->
+
+			<footer>
+				<span id="contactEmail">timanson@timanson.com</span>
+				<span id="contactCell">555-555-5555</span>
+			</footer>
+
+		</div><!--end wrapper-->
+	</body>
+</html>
